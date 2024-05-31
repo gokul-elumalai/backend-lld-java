@@ -1,8 +1,8 @@
-package main.java.design_patterns.factory.abstract_factory.notifications;
+package main.java.design_patterns.factory.abstract_factory.notification_system;
 
-import main.java.design_patterns.factory.abstract_factory.notifications.notification.Notification;
-import main.java.design_patterns.factory.abstract_factory.notifications.sender.NotificationSender;
-import main.java.design_patterns.factory.abstract_factory.notifications.template.NotificationTemplate;
+import main.java.design_patterns.factory.abstract_factory.notification_system.notification.Notification;
+import main.java.design_patterns.factory.abstract_factory.notification_system.sender.NotificationSender;
+import main.java.design_patterns.factory.abstract_factory.notification_system.template.NotificationTemplate;
 
 public abstract class NotificationFactory {
     public abstract NotificationType notificationType();
