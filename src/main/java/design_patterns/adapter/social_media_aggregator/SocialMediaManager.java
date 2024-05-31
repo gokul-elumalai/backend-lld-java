@@ -7,7 +7,7 @@ import main.java.design_patterns.adapter.social_media_aggregator.external.Twitte
 
 import java.util.List;
 
-
+// this will be in a separate module
 public class SocialMediaManager {
     private FacebookApi facebookApi = new FacebookApi();
     private TwitterApi twitterApi = new TwitterApi();
