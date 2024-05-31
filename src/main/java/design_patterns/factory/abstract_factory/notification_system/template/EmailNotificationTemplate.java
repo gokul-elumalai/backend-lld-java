@@ -1,6 +1,6 @@
-package main.java.design_patterns.factory.abstract_factory.notifications.template;
+package main.java.design_patterns.factory.abstract_factory.notification_system.template;
 
-import main.java.design_patterns.factory.abstract_factory.notifications.NotificationType;
+import main.java.design_patterns.factory.abstract_factory.notification_system.NotificationType;
 
 public class EmailNotificationTemplate extends NotificationTemplate{
     public EmailNotificationTemplate(String message) {
